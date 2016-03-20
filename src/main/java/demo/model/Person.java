@@ -1,12 +1,5 @@
 package demo.model;
 
-import org.hibernate.validator.constraints.NotEmpty;
-
-import javax.persistence.*;
-import javax.validation.constraints.Digits;
-
-@Entity
-@Table(name = "people")
 public class Person {
 
     @Id
